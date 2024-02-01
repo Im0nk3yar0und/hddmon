@@ -3,8 +3,10 @@
 
 
 ## Overview 
-This script monitors disk health and temperature using smartctl.
-
+- **HDD and NVMe Monitoring:** Effortlessly check the temperature and health status of your hard drives and NVMe devices.
+- **Default Behavior:** When run without specific options, the script defaults to displaying temperatures of all connected disks. [hddmon.sh -a]
+- **Easy Installation:** Get started quickly by cloning the repository from GitHub. After cloning, make the script executable, and begin monitoring your disks.
+- This script use smartctl, a powerful utility for monitoring storage devices.It's important to note that smartctl may encounter difficulties reading temperatures from certain disk manufacturers, such as Seagate and Toshiba. In case of failure to read temperatures, the script will display "NULL" to indicate the absence of temperature data
   
 ### Clone the Repository 
 
